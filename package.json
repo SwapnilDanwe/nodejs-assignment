@@ -1,0 +1,32 @@
+{
+  "name": "node-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:multi": "node bin/cluster.js",
+    "start:dev": "nodemon bin/www.js",
+    "start:prod": "node bin/www.js"
+  },
+  "keywords": [
+    "node",
+    "cluster",
+    "apis"
+  ],
+  "author": "Swapnil Danwe",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.6.5",
+    "nodemon": "^3.0.2",
+    "redis": "^4.6.12",
+    "supertest": "^6.3.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
